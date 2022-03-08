@@ -15,9 +15,31 @@
     <!-- Chat Bar Block-->
     <div class="chat-bar-collapsible"></div>
         <button id="chat-button" type="button" class="collapsible">Let's Start Learning!
-            <i id="chat-icon" style="color: aliceblue;" class=""
-
+            <i id="chat-icon" style="color: aliceblue;" class="fa fa-fw fa-comments-o"></i>
         </button>
+
+        <div class="content">
+            <div class="chat-block">
+                <!--- Message Container-->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div class="chatbox">
+                            <p id="chatbotStarterMessage" class= "textBot"><span>Loading...</span></p>
+                        </div>
+
+                        <!--User input-->
+                        <div class="chat-bar-input">
+                            <div id="user-input">
+                                <input type="text" id="textInput" class="input-box" name="msg"
+                                placeholder="Tap 'Enter' to send message">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script scr= "static/scripts/responses.js"></script>
