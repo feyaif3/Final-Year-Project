@@ -4,55 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot</title>
-
-    <link rel="stylesheet" href="static/css/chat.css">
-    <link rel="stylesheet" href="static/css/home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Website</title>
 </head>
 <body>
-    <!-- Chat Bar Block-->
-    <div class="chat-bar-collapsible"></div>
-        <button id="chat-button" type="button" class="collapsible">Let's Start Learning!
-            <i id="chat-icon" style="color: aliceblue;" class="fa fa-fw fa-comments-o"></i>
-        </button>
-
-        <div class="content">
-            <div class="chat-block">
-                <!--- Message Container-->
-                <div class="outer-container">
-                    <div class="chat-container">
-                        <!-- Messages -->
-                        <div class="chatbox">
-                            <p id="chatbotStarterMessage" class= "textBot"><span>Loading...</span></p>
-                        </div>
-
-                        <!--User input-->
-                        <div class="chat-bar-input">
-                            <div id="user-input">
-                                <input type="text" id="textInput" class="input-box" name="msg"
-                                placeholder="Tap 'Enter' to send message">
-                                <p></p>
-                            </div>
-
-                            <div class="chat-bar-icons">
-                                <i id="chat-icon" style="color: grey;" class="fa fa-fw fa-send"
-                                onclick="sendButton()"></i>
-                            </div>
-                        </div>
-
-                        <div id="chat-bar-bottom">
-                            <p></p>
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </div>
+    <nav>
+        <div class="logo">
+            <h4>The Chatbot</h4>
         </div>
+    </nav>
+        <div class="text">
+            <h2>Select A Language To Learn</h2>
+      
+        <div class="container">
+            <img src="Images/Spain/spain_button.jpg" alt="Spain" style="width:100%">
+            <a href="spain.html">
+                <button class="btn">Spanish</button>
+            </a>
+          </div>
+          <div class="container">
+            <img src="Images/France/french button.jpg" alt="France" style="width:100%">
+            <a href="france.html">
+                <button class="btn">French</button>
+            </a>
+          </div><div class="container">
+            <img src="Images/German/german button.jpg" alt="Germany" style="width:100%">
+            <a href="german.html">
+                <button class="btn">German</button>
+            </a>
+          </div>
+       
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script scr= "static/scripts/responses.js"></script>
-<script scr= "static/scripts/chat.js"></script>
 </html>
