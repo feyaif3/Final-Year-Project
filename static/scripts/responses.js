@@ -7,9 +7,9 @@ function getBotResponse(input) {
         return "Nice to meet you Frank";
     } else if (input == "goodbye") {
         return "Goodbye, Frank";
-    } else if (input == "thank you for the lesson")
+    } else if (input == "thank you for the lesson"){
         return "It was nice teaching you, see you soon.";
-}
+    }
 
     if(input== "how do you say I like football in spanish?") {
         return "me gusta el fútbol";
@@ -18,18 +18,16 @@ function getBotResponse(input) {
     } else if ("what does that mean?"){
         return "It means, what team do you support?";
     } else if ("i support manchester city"){
-        return "tu apoyas al manchester city"
+        return "tu apoyas al manchester city";
+    } else if ("what team do you like"){
+        return "me gusta el equipo barcelona";
+    } else if ("does that mean you like the team barcelona?"){
+        return  "muy buen, you are correct";
     }
 
     if (input== "how do you say I like cooking in french?") {
-        return ""
-    }
-
-    if (input == "hello") {
-        return "Hello there!";
-    } else if (input == "goodbye") {
-        return "Talk to you later!";
-    } else {
-        return "Try asking something else!";
+        return "J'aime cuisiner";
     }
 }
+
+
