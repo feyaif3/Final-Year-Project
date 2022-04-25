@@ -1,3 +1,4 @@
+ // Collapsible
 var coll = document.getElementsByClassName("collapsible");
 
 for (let i = 0; i < coll.length; i++) {
@@ -34,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Let's start learning"
+    let firstMessage = "Let's start learning!"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
@@ -59,7 +60,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "I love Code Palace!";
+        userText = "I love learning!";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
@@ -82,8 +83,8 @@ function buttonSendText(sampleText) {
     $("#chatbox").append(userHtml);
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
 
-    
-    setTimeout(() => {
+ 
+     setTimeout(() => {
          getHardResponse(sampleText);
      }, 1500)
 }
@@ -91,6 +92,7 @@ function buttonSendText(sampleText) {
 function sendButton() {
     getResponse();
 }
+
 
 // Press enter to send a message
 $("#textInput").keypress(function (e) {
