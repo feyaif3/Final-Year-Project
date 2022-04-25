@@ -11,9 +11,11 @@ function getBotResponse(input) {
         return "It was nice teaching you, see you soon.";
     } else if (input == "hi") {
         return "Hello"
+    } else if (input == "Hi") {
+        return "Hello"
     }
 
-     if(input== "how do I say I like football in spanish?") {
+     if(input == "how do I say I like football in spanish?") {
         return "me gusta el fútbol";
     } else if (input == "me gusta el futbol") {
         return "Qué equipo apoyas?";
@@ -27,29 +29,29 @@ function getBotResponse(input) {
         return  "muy buen, you are correct";
     }
 
-   /* if (input== "how do I say I like cooking in french?") {
+    if (input== "how do I say I like cooking in french?") {
         return "J'aime cuisiner";
-    } else if ("i like to cook chilli con carne") {
+    } else if (input== "i like to cook chilli con carne") {
         return "you mean, j'aime cuisiner le chili con carne";
-    } else if ("is that how you say it in French?") {
+    } else if (input== "is that how you say it in French?") {
         return "oui, type it in, so you remember it."
-    } else if ("j'aime cuisiner le chili con carne") {
+    } else if (input== "j'aime cuisiner le chili con carne") {
         return "très bien Frank"
-    } else if ("merci") {
+    } else if (input== "merci") {
         return "you are welcome Frank, hopefully you remember everything"
-    }*/
+    }
 
-    /*if (input == "how do I say I like driving in german?") {
+    if (input == "how do I say I like driving in german?") {
         return "ich fahre gern";
-    } else if ("ich fahre gern my car") {
+    } else if (input== "ich fahre gern my car") {
         return "sehr gut, that means very good. Do you have a favourite car brand?";
-    } else if ("my favourite car brand is Audi, how do i say that in german?") {
+    } else if (input== "my favourite car brand is Audi, how do i say that in german?") {
         return "Meine Lieblingsautomarke ist Audi";
-    } else if ("that is very hard to say and remember"){
+    } else if (input== "that is very hard to say and remember"){
         return "it is however if you practice with me everyday you will remember";
     } else {
         return "I don't understand, can you try saying that again";
-    }*/
+    }
 } 
 
 
